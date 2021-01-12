@@ -1,0 +1,59 @@
+li {
+  margin: 1rem 0rem;
+  display: flex;
+  flex-direction: column;
+}
+.headInfo {
+  display: block;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 13px;
+  display: -moz-box;
+  word-wrap: break-word;
+}
+
+.readContent {
+  background-color: #dadada;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.storyTitle {
+  font-size: 15px;
+  font-weight: bold;
+}
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: blue;
+}
+
+.spanRes {
+  color: #5c5c5c;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.spanUrl {
+  color: #5c5c5c;
+  text-decoration: none;
+  font-size: 12px;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+
+.spanPipe {
+  color: black;
+}
