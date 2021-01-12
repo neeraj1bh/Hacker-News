@@ -1,0 +1,11 @@
+.mainApp {
+  max-width: 90%;
+  margin: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .mainApp {
+    max-width: 85%;
+    margin: auto;
+  }
+}

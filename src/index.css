@@ -1,0 +1,26 @@
+body {
+  align-items: center;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+  background-color: #fbfbfb;
+}
+
+button:hover {
+  background: rgb(187, 229, 255);
+  color: black;
+}
+
+@media screen and (max-width: 700px) {
+  html,
+  body {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  body {
+    max-width: 100%;
+    margin: auto;
+    color: black;
+    margin: auto;
+  }
+}
