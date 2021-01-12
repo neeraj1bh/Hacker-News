@@ -1,0 +1,120 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.header1 {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.header2 {
+  flex: 9 1 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.searchBox {
+  width: 75%;
+  padding: 1rem 2rem;
+  font-size: 15px;
+  text-align: center;
+  margin: 0.5rem 0rem;
+  border: 1px solid black;
+}
+.searchButton {
+  cursor: pointer;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+  height: 30px;
+  padding: 10px 12px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: #ee9ba3;
+  color: white;
+  font-size: 14px;
+  box-sizing: unset;
+  margin: 0.5rem 0rem;
+}
+
+.searchButton:hover {
+  background: white;
+  color: black;
+  border: 1px solid;
+}
+
+img {
+  max-width: 50px;
+  margin: 0.5rem 0rem;
+}
+
+.user {
+  max-width: 90px;
+  word-wrap: break-word;
+  display: block;
+  font-size: 0.7rem;
+  font-weight: bold;
+  background-image: linear-gradient(
+    to right,
+    rgba(201, 199, 199, 0.693),
+    rgb(211, 212, 210)
+  );
+  padding: 1rem;
+  border-radius: 7px;
+  align-items: center;
+  margin: 0.5rem 0rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+  }
+  .header1 {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+  }
+
+  .header2 {
+    flex: 1 1 auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+  }
+  .searchBox {
+    width: 100%;
+    padding: 1rem 2rem;
+    font-size: 15px;
+    text-align: center;
+    margin: 0.5rem 0rem;
+    border: 1px solid black;
+  }
+}
