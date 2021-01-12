@@ -1,0 +1,48 @@
+.filters {
+  display: flex;
+  flex: 1 1 auto;
+
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding: 0.5rem;
+}
+.cFilter {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.indiFilters {
+  margin: 0.2rem.5rem;
+}
+
+.spanHead {
+  margin-right: 0.3rem;
+  font-size: 15px;
+}
+
+.selectHead {
+  padding: 10px;
+  color: grey;
+  margin: 0rem 0.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .filters {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0rem;
+    padding: 1rem;
+  }
+  .selectHead {
+    padding: 5px;
+    color: grey;
+    margin: 0rem 0.5rem;
+  }
+}
