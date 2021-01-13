@@ -8,6 +8,7 @@ body {
 button:hover {
   background: rgb(187, 229, 255);
   color: black;
+
 }
 
 @media screen and (max-width: 700px) {

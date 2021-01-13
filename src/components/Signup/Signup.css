@@ -24,6 +24,12 @@
   font-size: 14px;
   max-width: 100%;
   box-sizing: unset;
+  transition: 0.5s;
+}
+
+button:hover {
+  background: rgb(187, 229, 255);
+  color: black;
 }
 
 input {

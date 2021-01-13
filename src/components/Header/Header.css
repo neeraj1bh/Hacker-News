@@ -50,6 +50,7 @@
   font-size: 14px;
   box-sizing: unset;
   margin: 0.5rem 0rem;
+  transition: 0.5s;
 }
 
 .searchButton:hover {
